@@ -1,4 +1,4 @@
-FROM adoptopenjdk/openjdk8
+FROM adoptopenjdk/openjdk11
 WORKDIR /
 ADD rest-api-app-0.0.1-SNAPSHORT.war rest-api-app.war
 EXPOSE 5000
